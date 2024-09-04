@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Michael4Browna.github.io/sitemap.xml
