@@ -22,3 +22,16 @@
 <link rel="stylesheet" href="{{ _sources.font_awesome }}" >
 
 {%- include head/custom.html -%}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Page Title</title>
+<script>
+    (function() {
+        const searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('lptag')) {
+            const newUrl = "https://link.coupang.com/re/AFFSDP?" + searchParams.toString();
+            window.location.href = newUrl;
+        }
+    })();
+</script>
